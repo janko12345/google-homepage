@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        float:right;
+        padding: 10px;
+    }
+    li a{
+        display: block;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover{
+        color:deeppink;
+    }
+    #searchBar{
+        display:block;
+    }
+    .middling{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-items: center;
+        margin-left: 750px;
+        padding-top: 200px;
+        
+    }
+    img{
+        margin: 20px;
+    }
+    
+    button{
+        margin: 30px 15px;
+        border: 2px solid rgb(105, 105, 76);
+        padding: 10px;
+        background-color: #ff55ff;
+        background-image: url(https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg);
+        
+    }
+    
+    #buttons{
+        display: flex;
+        justify-content: center;
+    }
+    #a{
+        margin-right:5px;
+    }
+    #b{
+        margin-left:5px;
+    }
+    
+    input{
+        margin-left: 20px;
+        padding-left: 60px;
+    }
+    body{
+        background-image: url(https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png);
+        background-size:cover;
+    }
+    
+</style>
+
+<body>
+    
+    <div id="buttons">
+    <button id="a">čo je kápo</button>
+    <button id="b">ahoj čávo</button>
+</div>
+    <nav>
+        <ul>
+            <li>
+                <a  href="https://mail.google.com" target="_blank">Gmail</a>
+            </li>
+            <li>
+                <a href="#">Obrázky</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="middling">
+        <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt = "ordinary google logo">
+        
+        <form>
+            <label for="searchBar">
+            <input id = "searchBar"type="text" placeholder="Napíš niečo Filip">
+            </label>
+            <label for="button1">
+                <button id="button1">Hľadať pomocou googlu</button>
+            </label>
+            <label for="button2">
+                <button id="button2">Skúsim šťastie</button>
+            </label>
+        </form>
+
+        <p>Google ponúka jazyk: <a href="index.html" style="color:blue; text-decoration: underline;">Angličtinu</a></p>
+    </div>
+</body>
+</html>
